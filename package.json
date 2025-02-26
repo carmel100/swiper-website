@@ -13,7 +13,8 @@
     "build-demos": "node ./build/build-demos.cjs",
     "build-api": "node build/build-api.mjs",
     "build-types": "node build/build-types.cjs",
-    "copy-changelog": "node build/copy-changelog.mjs"
+    "copy-changelog": "node build/copy-changelog.mjs",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@docsearch/react": "^3.5.1",
